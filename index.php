@@ -31,81 +31,74 @@
   
 
 <header data-bs-theme="dark">
-    <nav class="navbar navbar-expand-md fixed-top flex-column bg-light">
-
-      <!-- Promotion start -->
-        <!-- <div class="announcement container-fluid">
-          <span class="close">&#x2715;</span>
-          <div class="text">
-            <span class="is-desktop">
-              <strong>PROMOTION</strong>. Get upto 20% off . Use Coupon
-            </span>
-            <span class="is-mobile">Use Coupon Code for <strong>50% OFF</strong></span>
-          </div>
-          <div class="coupon">
-            <input type="text" value="CODEPEN50" id="couponCode" readonly />
-            <div class="tooltip">
-              <button onclick="myFunction()" onmouseout="outFunc()">
-                <span class="tooltiptext" id="myTooltip">Copy to clipboard</span>
-                Copy
-              </button>
-            </div>
-          </div>
-          <span id="timer" class="is-desktop"></span>
-        </div> -->
-        <!-- Promotion End -->
+    <nav class="navbar navbar-expand-md fixed-top flex-column">
 
         <div class="container-fluid">
          
           <!-- Logo HTML -->
-          <a href="#" class="logo-container">
-            <i class="fas fa-code logo-icon"></i>
-            <span class="logo-text-portfolio">Portfolio</span>
-            <span class="logo-text-ready">Ready</span>
-          </a>
+          <a href="#" class="navbar-brand">
+          <img src="assets/img/logo-1.png" class="logo" alt="Company Logo">
+        </a>
 
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+
+            <button class="navbar-toggler" type="button border-light" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                 <svg width="30" height="30" viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg">
-                    <path stroke="black" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"/>
+                    <path stroke="white" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"/>
                 </svg>
             </button>
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <ul class="navbar-nav me-auto ms-auto mb-2 mb-md-0">
                     <li class="nav-item d-flex align-items-center">
-                        <a class="nav-link text-dark" href="#">Home</a>
+                        <a class="nav-link text-light" href="#">Home</a>
                     </li>
                     <li class="nav-item d-flex align-items-center">
-                        <a class="nav-link text-dark" href="courses.php">Courses</a>
+                        <a class="nav-link text-light" href="courses.php">Courses</a>
                     </li>
                     <li class="nav-item d-flex align-items-center">
-                        <a class="nav-link text-dark" href="#">Blog</a>
+                        <a class="nav-link text-light" href="#">Blog</a>
                     </li>
                     <li class="nav-item d-flex align-items-center">
-                        <a class="nav-link text-dark" href="#">Shop</a>
+                        <a class="nav-link text-light" href="#">Shop</a>
                     </li>
                     <li class="nav-item d-flex align-items-center">
-                        <a class="nav-link text-dark" href="#">Pages</a>
+                        <a class="nav-link text-light" href="#">Pages</a>
                     </li>
                     <li class="nav-item d-flex align-items-center">
-                        <a class="nav-link text-dark" href="#">Events</a>
+                        <a class="nav-link text-light" href="#">Events</a>
                     </li>
                 </ul>
                 <form class="d-flex">
-                    <button class="btn  btn-outline-primary me-2" onclick="window.location='login.php'" type="button">Login</button>
-                    <button class="btn btn-primary" onclick="window.location='sign-up.php'" type="button">Enroll Now</button>
+                    <button class="btn  btn-outline-light me-2" onclick="window.location='login.php'" type="button">Login</button>
+                    <button class="btn btn-primary" onclick="window.location='sign-up.php'" type="button">Register</button>
                 </form>
             </div>
         </div>
     </nav>
-    
+
 </header>
+
+<style>
+  .navbar {
+    padding: 0; /* Remove default padding that might affect layout */
+    background-color:#04016C;
+    box-shadow: 0px 10px 15px -3px rgba(f,f,f,0.3);
+}
+
+.navbar .logo {
+    max-height: 98%; /* Fit the logo within the navbar height */
+    max-width: 150px; /* Adjust to desired width */
+    height: auto; /* Maintain aspect ratio */
+}
+
+</style>
+
 
 <!-- Hero Section Start -->
 <section class="hero-sec container-fluid pt-5">
     <div class="row mt-5 d-flex gap-2 align-items-center justify-content-center">
         <div class="col-md-5 text-center text-md-start">
             <p class="text-light" style="font-size: 0.9rem; font-family:sans-serif;">#Mastering Web Development</p>
-            <h1 class="text-light" style="font-family: rowdies;">Learn to design, code, and <span style="color: #4BE5CA;">launch websites</span>  from scratch</h1>
+            <h1 class="text-light" style="font-family: rowdies;">Learn to design, code, and <span style="color: #ffd000;">launch websites</span>  from scratch</h1>
             <div class="d-grid gap-2 d-md-flex justify-content-md-start mt-4 mb-4">
                 <button class="btn btn-outline-light me-md-2" type="button" aria-label="View Courses">View Courses</button>
                 <a class="link text-light text-decoration-none" href="#">Get Free Consultation</a>

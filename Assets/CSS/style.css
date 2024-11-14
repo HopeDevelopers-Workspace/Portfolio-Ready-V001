@@ -1,52 +1,19 @@
+/* Nav Bar stykes */
 
-
-
-.nav-link{
-  color: #000000;
+.navbar {
+  height: 60px; /* Adjust this as needed for your design */
+  padding: 2px; /* Remove default padding that might affect layout */
+  background-color:#04016C;
+  box-shadow:1px 1px 50px #eaeaea78;
+  align-items: center;
 }
 
-/* Button styles */
-.sign-up, .explore{
-    background: linear-gradient(45deg, #04016C 0%, #4A16BD 100%);
+.navbar .logo {
+  max-height: 100%; /* Fit the logo within the navbar height */
+  max-width: 150px; /* Adjust to desired width */
+  height: auto; /* Maintain aspect ratio */
 }
 
-
-
-
-
-    /* Logo container styling */
-    .logo-container {
-      display: inline-flex;
-      align-items: center;
-      padding: 0.5rem 1rem;
-      border-radius: 0.5rem; /* Rounded corner */
-      background: linear-gradient(45deg, #04016C, #4A16BD); /* Matches gradient theme */
-      color: #2AAA94; /* Logo text color */
-      font-family: 'Poppins', sans-serif;
-      font-size: 1rem;
-      font-weight: 700;
-      text-decoration: none;
-    }
-
-    /* Icon styling */
-    .logo-container .logo-icon {
-      margin-right: 0.5rem;
-      font-size: 1.5rem; /* Icon size */
-      color: #ffffff; /* Matches logo color scheme */
-    }
-
-    /* Text styling */
-    .logo-container .logo-text-portfolio {
-      color: #fff; /* White color for 'Portfolio' text */
-    }
-
-    .logo-container .logo-text-ready {
-      color: #2AAA94; /* Accent color for 'Ready' text */
-      background-color: #fff; /* Light background to stand out */
-      padding: 0.1rem 0.5rem;
-      border-radius: 0.25rem;
-      margin-left: 0.25rem;
-    }
 
 
 
@@ -55,7 +22,7 @@
 
 
 .hero-sec{
-  background: linear-gradient(45deg, #04016C 0%, #4A16BD 100%);
+  background: linear-gradient(45deg, #0600a9 0%, #5b1be3 100%);
 }
 
 
